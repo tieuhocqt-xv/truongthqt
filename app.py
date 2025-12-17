@@ -190,7 +190,7 @@ st.markdown("""
 # --- 4. GIAO DIỆN CHÍNH ---
 st.markdown("""
 <div class="main-header">
-    <h1>📘 TRỢ LÝ SOẠN GIÁO ÁN TỰ ĐỘNG (NLS)</h1>
+    <h1>📘 TRỢ LÝ SOẠN GIÁO ÁN TỰ ĐỘNG CỦA TRƯỜNG TH QUANG TRUNG (NLS)</h1>
     <p>Tác giả: Trường Tiểu học Quang Trung - ĐT: 0337 587  267</p>
 </div>
 """, unsafe_allow_html=True)
