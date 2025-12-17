@@ -10,7 +10,7 @@ from docx.shared import Pt, RGBColor, Inches, Cm
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 # --- 1. CẤU HÌNH TRANG ---
-st.set_page_config(page_title="Trợ lý Giáo án NLS", page_icon="📘", layout="centered")
+st.set_page_config(page_title="Trợ lý Giáo án NLS TH Quang Trung", page_icon="📘", layout="centered")
 
 FILE_KHUNG_NANG_LUC = "khungnanglucso.pdf"
 
@@ -191,7 +191,7 @@ st.markdown("""
 st.markdown("""
 <div class="main-header">
     <h1>📘 TRỢ LÝ SOẠN GIÁO ÁN TỰ ĐỘNG (NLS)</h1>
-    <p>Tác giả: Lù Seo Sần - Trường PTDTBT Tiểu học Bản Ngò - ĐT: 097 1986 343</p>
+    <p>Tác giả: Trường Tiểu học Quang Trung - ĐT: 0337 587  267</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -235,7 +235,7 @@ if uploaded_files:
 st.markdown('<div class="section-header">📝 2. THÔNG TIN BÀI DẠY</div>', unsafe_allow_html=True)
 
 c1, c2 = st.columns(2)
-with c1: lop = st.text_input("📚 Lớp:", "Lớp 4")
+with c1: lop = st.text_input("📚 Lớp:", "Lớp 3")
 with c2: ten_bai = st.text_input("📌 Tên bài học:", placeholder="Ví dụ: Học hát bài...")
 
 noidung_bosung = st.text_area("✍️ Ghi chú thêm (nội dung/kiến thức):", height=100)
@@ -347,4 +347,4 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
 
 # --- CHÂN TRANG ---
 st.markdown("---")
-st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Lù Seo Sần - Trường PTDTBT Tiểu học Bản Ngò - ĐT: 097 1986 343</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Trường Tiểu học Quang Trung - ĐT: 0337 587 267</div>", unsafe_allow_html=True)
